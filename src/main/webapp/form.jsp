@@ -62,15 +62,15 @@ if(errores != null && errores.size()>0){
   </div>
 
   <div class="row mb-3">
-    <label for="pais" class="col-form-label col-sm-2">Categoría</label>
+    <label for="categoria" class="col-form-label col-sm-2">Categoría</label>
     <div class="col-sm-4">
       <select name="categoria" id="categoria" class="form-select">
         <option value="">-- seleccionar --</option>
-        <option value="C1" ${param.pais.equals("C1")? "selected": ""}>Categoría 1</option>
-        <option value="C2" ${param.pais.equals("C2")? "selected": ""}>Categoría 2</option>
-        <option value="C3" ${param.pais.equals("C3")? "selected": ""}>Categoría 3</option>
-        <option value="C4" ${param.pais.equals("C4")? "selected": ""}>Categoría 4</option>
-        <option value="C5" ${param.pais.equals("C5")? "selected": ""}>Categoría 5</option>
+        <option value="C1" ${param.categoria.equals("C1")? "selected": ""}>Categoría 1</option>
+        <option value="C2" ${param.categoria.equals("C2")? "selected": ""}>Categoría 2</option>
+        <option value="C3" ${param.categoria.equals("C3")? "selected": ""}>Categoría 3</option>
+        <option value="C4" ${param.categoria.equals("C4")? "selected": ""}>Categoría 4</option>
+        <option value="C5" ${param.categoria.equals("C5")? "selected": ""}>Categoría 5</option>
       </select>
     </div>
     <%
