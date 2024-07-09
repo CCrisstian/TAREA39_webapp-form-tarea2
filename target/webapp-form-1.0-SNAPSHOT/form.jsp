@@ -7,11 +7,11 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>TAREA 39 Formulario de usuarios</title>
+    <title>TAREA 39 Registro de Productos</title>
     <link href="<%=request.getContextPath()%>/css/bootstrap.min.css" rel="stylesheet">
 </head>
 <body>
-<h3>TAREA Formulario de usuarios</h3>
+<h3>TAREA 39 Registro de Productos</h3>
 
 <%
 if(errores != null && errores.size()>0){
@@ -80,12 +80,6 @@ if(errores != null && errores.size()>0){
         %>
   </div>
 
-  <div class="row mb-3">
-    <label for="habilitar" class="col-form-label col-sm-2">Habilitar</label>
-    <div class="form-check col-sm-2">
-      <input type="checkbox" name="habilitar" id="habilitar" checked class="form-check-input">
-    </div>
-  </div>
   <div class="row mb-3">
     <div>
       <input type="submit" value="Enviar" class="btn btn-primary">

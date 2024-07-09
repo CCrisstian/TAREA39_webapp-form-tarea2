@@ -53,10 +53,10 @@ public class RegistroProductoServlet extends HttpServlet {
                 out.println("<html>");
                 out.println("    <head>");
                 out.println("        <meta charset=\"UTF-8\">");
-                out.println("        <title>TAREA 39 - Resultado form</title>");
+                out.println("        <title>TAREA 39 - Resultado Registro de Productos</title>");
                 out.println("    </head>");
                 out.println("    <body>");
-                out.println("        <h1>Resultado form!</h1>");
+                out.println("        <h1>TAREA 39 - Resultado Registro de Productos</h1>");
                 out.println("        <ul>");
                 out.println("            <li>Nombre: " +nombre+"</li>");
                 out.println("            <li>Precio: " +precio+"</li>");
